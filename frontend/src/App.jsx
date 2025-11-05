@@ -15,6 +15,8 @@ import Updates from "./components/LatestUpdates/Updates";
 import VolunteerAuth from "../src/pages/VolunteerAuth.jsx";
 import DonationForm from "../src/pages/DonationForm.jsx";
 
+
+
 const HomePage = ({ setPlayState }) => {
   const location = useLocation();
 
@@ -46,7 +48,6 @@ const HomePage = ({ setPlayState }) => {
 
 const App = () => {
   const [playState, setPlayState] = useState(false);
-
   return (
     <Router>
       <Navbar />
